@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="860" viewBox="0 0 740 860" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="52" y1="45" x2="683" y2="813" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E9DDF7"/>
+      <stop offset=".52" stop-color="#C9B6DF"/>
+      <stop offset="1" stop-color="#A993C4"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="370" y1="578" x2="370" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8F5FC"/>
+      <stop offset="1" stop-color="#D9D0E5"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="220" y1="158" x2="580" y2="375" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#29212F"/>
+      <stop offset="1" stop-color="#51425B"/>
+    </linearGradient>
+    <filter id="shadow" x="143" y="514" width="455" height="439" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="15"/>
+    </filter>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h740v860H0z"/>
+  <circle cx="586" cy="173" r="92" fill="#F6EFFB" fill-opacity=".4"/>
+  <circle cx="100" cy="540" r="135" fill="#B59BCC" fill-opacity=".24"/>
+  <path d="M178 860c10-145 60-248 192-248s190 103 196 248H178Z" fill="#42384C" filter="url(#shadow)" opacity=".25"/>
+  <path d="M154 860c16-164 79-278 216-278s201 114 216 278H154Z" fill="url(#shirt)"/>
+  <path d="m323 591 47 67 49-67-18-60h-61l-17 60Z" fill="#E8D9EE"/>
+  <path d="M277 338c0-104 41-160 96-160 61 0 104 56 104 160v76c0 103-45 166-104 166-58 0-96-63-96-166v-76Z" fill="#D99D79"/>
+  <path d="M278 362c-33-97-15-197 41-226 4-46 60-72 105-54 81 5 113 83 107 164l-15 119-24-77c-20-10-31-39-32-66-34 25-98 45-173 36l-9 104Z" fill="url(#hair)"/>
+  <path d="M282 335c-34-18-48 18-31 54 11 22 25 36 42 39l-11-93Zm190 1c35-17 47 19 29 55-10 20-23 33-39 37l10-92Z" fill="#D99D79"/>
+  <path d="M320 375c12-8 26-8 38 0m47 0c11-8 25-8 37 0" stroke="#573D38" stroke-width="8" stroke-linecap="round"/>
+  <ellipse cx="339" cy="396" rx="5" ry="7" fill="#332A33"/>
+  <ellipse cx="425" cy="396" rx="5" ry="7" fill="#332A33"/>
+  <path d="M376 397c-1 19-9 37-3 42 5 4 14 4 19 1" stroke="#B97963" stroke-width="5" stroke-linecap="round"/>
+  <path d="M352 468c16 12 37 12 54 0" stroke="#8A4F55" stroke-width="6" stroke-linecap="round"/>
+  <path d="M273 339c12-92 44-130 103-145-12 35-45 62-103 69m214 31c28-38 25-80 8-109 52 33 60 94 48 149-23-8-43-22-56-43-2 17 2 32 8 47-30-6-51-24-62-49-20 23-58 42-108 50 21-14 37-31 46-49-28 18-60 29-96 30Z" fill="url(#hair)"/>
+  <path d="m368 659 3 201m21-201-4 201" stroke="#B7A9C6" stroke-width="3"/>
+  <path d="m370 657 20 24-19 34-20-34 19-24Z" fill="#A987C5"/>
+  <text x="370" y="795" fill="#8A779A" font-family="sans-serif" font-size="16" letter-spacing="5" text-anchor="middle">YOUR PHOTO HERE</text>
+</svg>
